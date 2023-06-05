@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, Form } from "react-bootstrap";
+import { Col, Card, Form } from "react-bootstrap";
 import { Product } from "../../types";
 
 const ProductItem = ({ product }: { product: Product }) => {

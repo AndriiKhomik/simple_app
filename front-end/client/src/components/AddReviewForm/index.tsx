@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Form, Row, Col, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { addReview, getReviews } from "../../api/requests";
+import { addReview } from "../../api/requests";
 import { Review } from "../../types";
 
 const AddReviewForm = () => {
@@ -38,6 +38,7 @@ const AddReviewForm = () => {
         saveInfo: false,
       });
       setValidated(false);
+      window.location.reload();
     }
   };
 

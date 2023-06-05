@@ -14,7 +14,11 @@ const Navibar = () => {
       className="px-2"
     >
       <Container>
-        <Navbar.Brand className="ml-2">Bits Orchestra</Navbar.Brand>
+        <Navbar.Brand className="ml-2">
+          <Link to="/" className="navItem">
+            Bits Orchestra
+          </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav>
